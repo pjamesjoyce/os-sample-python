@@ -1,10 +1,10 @@
-from app import app
+from app import application
 
 
-@app.route("/")
+@application.route("/")
 def hello():
     return "Hello Brave New World!"
 
 
 if __name__ == "__main__":
-    app.run()
+    application.run()
